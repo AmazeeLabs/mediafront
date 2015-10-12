@@ -184,7 +184,7 @@ minplayer.players.vimeo.prototype.createPlayer = function() {
   minplayer.players.base.prototype.createPlayer.call(this);
 
   // Insert the Vimeo Froogaloop player.
-  var vimeo_script = 'http://a.vimeocdn.com/js/froogaloop2.min.js';
+  var vimeo_script = 'https://f.vimeocdn.com/js/froogaloop2.min.js';
   if (jQuery('script[src="' + vimeo_script + '"]').length === 0) {
     var tag = document.createElement('script');
     tag.src = vimeo_script;
